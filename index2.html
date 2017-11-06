@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/objects/teacher.js"></script>
+  <script type="text/javascript" src="javascript/objects/students.js"></script>
+  <script type="text/javascript" src="javascript/objects/iterations.js"></script>
+  <script type="text/javascript" src="javascript/objects/game.js"></script>
+  <script type="text/javascript" src="javascript/main.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>GitCommit!</title>
+</head>
+<body>
+  <audio autoplay>
+  <source src="sounds/benny-hill.mp3" type="audio/mpeg"></audio>
+  <div class="wrap autocenter">
+    <div class="game">
+      <canvas id="board" width="1080" height="720"></canvas>
+      <div class="health">Health: <span id="teacher-health"></span></div>
+      <div id = "endGame">
+        <a href="./index.html"><button>Retry!</button></a>
+        <img src = "images/youLose.png">
+      </div>
+    </div>
+  </div>
+<div class = "level2">
+  <img src = "images/itermFinal.png">
+  <h1>Level 2</h2>
+</div>
+<div class = "youWin">
+  <img src = "images/itermFinal.png">
+  <h1>YOU WIN !</h2>
+</div>
+</body>
+</html>
